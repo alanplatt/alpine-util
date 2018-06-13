@@ -3,3 +3,4 @@
 #### extras so far
 * bind-tools (dig)
 * bash
+* curl
