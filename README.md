@@ -7,6 +7,10 @@
 * mysql-client
 * Python3
 
+### Run with Docker
+```
+docker run --rm --name alpine-util -it alanplatt/alpine-util:latest /bin/bash
+```
 
 #### Deploy on Kubernetes (k8s)
 ```
