@@ -4,6 +4,7 @@ RUN apk add --no-cache \
     bind-tools \
     bash \
     curl \
+    jq \
     mysql-client \
     python3 
 
