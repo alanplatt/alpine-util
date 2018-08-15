@@ -6,7 +6,8 @@ RUN apk add --no-cache \
     curl \
     jq \
     mysql-client \
-    python3 
+    openssh-client \
+    python3
 
 RUN python3 -m ensurepip && \
     rm -r /usr/lib/python*/ensurepip && \
