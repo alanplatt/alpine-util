@@ -17,3 +17,5 @@ RUN python3 -m ensurepip && \
     pip3 install --upgrade pip setuptools && \
     if [[ ! -e /usr/bin/python ]]; then ln -sf /usr/bin/python3 /usr/bin/python; fi && \
     rm -r /root/.cache
+
+RUN pip install awscli s3cmd
