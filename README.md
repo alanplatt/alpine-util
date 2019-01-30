@@ -6,6 +6,7 @@
 * curl
 * mysql-client
 * Python3
+* MongoDB
 
 ### Run with Docker
 ```
